@@ -97,7 +97,7 @@ class UIManager:
             # Set window flags
             dpg.set_item_config("primary_window", dpg.mvWindowFlags_NoResize | dpg.mvWindowFlags_NoMove)
             
-ghtlight(dpg.mvThemeVar_BG, (30, 30, 30, 255))  # Dark background
+            dpg.add_theme_color(dpg.mvThemeCol_WindowBg, (30, 30, 30, 255))  # Dark background
             
             # Register theme variables
             self._setup_theme()

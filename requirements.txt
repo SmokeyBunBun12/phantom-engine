@@ -5,8 +5,8 @@ moderngl>=5.9.0
 moderngl-window>=2.5.0
 PyOpenGL>=3.3.3
 PyQt5>=5.15.0
-imgui-py>=1.3.0
-pillow>=10.0.0
+dearpygui>=1.0.0
+Pillow>=10.0.0
 PyGLM>=2.4.0
 json5>=1.0.0
 pygame>=2.5.0
@@ -19,3 +19,7 @@ pywavefront>=1.2.2
 pywin32>=3.4.0
 # For configuration persistence
 hjson>=3.0.0
+# For headless GPU rendering (optional)
+osmesa>=1.1.0
+# For display handling on Linux
+xvfbwrapper>=0.3.0
