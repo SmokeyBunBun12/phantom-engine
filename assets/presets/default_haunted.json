@@ -1,0 +1,39 @@
+{
+  "scene_name": "default_haunted",
+  "version": "1.0.0",
+  "description": "Default haunted house scene with skeleton actor and projection mapping",
+  "camera": {
+    "position": [0.0, 2.0, -3.0],
+    "rotation": [0.0, 0.0, 0.0],
+    "fov": 60.0
+  },
+  "warp_coords": {
+    "top_left": [0.0, 0.0],
+    "top_right": [1.0, 0.0],
+    "bottom_left": [0.0, 1.0],
+    "bottom_right": [1.0, 1.0]
+  },
+  "lighting": {
+    "ambient_color": [0.3, 0.3, 0.3],
+    "ambient_intensity": 0.6,
+    "point_lights": [],
+    "spot_lights": [],
+    "directional_lights": [],
+    "shadow_quality": "high",
+    "bloom_enabled": true,
+    "bloom_threshold": 0.8,
+    "bloom_intensity": 1.0
+  },
+  "effects": {
+    "glitch_enabled": false,
+    "flash_enabled": false,
+    "chromatic_enabled": false,
+    "vignette_enabled": true
+  },
+  "performance": {
+    "profile": "balanced",
+    "render_thread": true,
+    "tracker_thread": true,
+    "capture_thread": true
+  }
+}

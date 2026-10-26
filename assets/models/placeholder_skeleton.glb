@@ -1,0 +1,29 @@
+# Default Haunted Skeleton Model
+
+This is the default placeholder for the Phantom Engine standard skeleton model.
+
+# Phantom Engine Default Skeleton Asset
+
+This is a default placeholder skeleton model for the Phantom Engine.
+
+For production use, replace this with actual `.gltf` or `.obj` skeleton files
+from Mixamo, Blender, or Sketchfab.
+
+## Expected Format
+
+The engine supports:
+- `.gltf` / `.glb` - Binary and JSON container formats with embedded geometry
+- `.obj` - Wavefront OBJ format
+
+## Bone Hierarchy Requirements
+
+The skeleton must follow a hierarchical structure with:
+1. Root bone (pelvis/hip)
+2. Spine chain (hip -> spine -> chest)
+3. Upper limb chains (clavicle -> upper arm -> forearm -> hand)
+4. Lower limb chains (femur -> tibia -> fibula -> foot)
+5. Neck and head chain
+
+## Calibration
+
+Use the in-app calibration tools to align MediaPipe keypoints to the imported skeleton.
